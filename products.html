@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Products - DesiWear</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>DesiWear</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="cart.html">Cart</a>
+      <a href="checkout.html">Checkout</a>
+    </nav>
+  </header>
+
+  <main class="products">
+    <section class="products-header">
+      <h2>Our Collections</h2>
+      <p>Explore premium traditional and modern fashion styles for every occasion.</p>
+    </section>
+
+    <div class="product-grid">
+      <div class="product">
+        <img src="img/dress1.jpg" alt="Red Embroidered Kurta">
+        <h3>Red Embroidered Kurta</h3>
+        <p>$55.00</p>
+        <button class="btn" onclick="addToCart('1', 'Red Embroidered Kurta', 55.00)">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="img/dress2.jpg" alt="Blue Formal Kameez">
+        <h3>Blue Formal Kameez</h3>
+        <p>$65.00</p>
+        <button class="btn" onclick="addToCart('2', 'Blue Formal Kameez', 65.00)">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="img/suit1.jpg" alt="Handmade Men Suit">
+        <h3>Handmade Men Suit - Single-breasted Notch</h3>
+        <p>$100.00</p>
+        <button class="btn" onclick="addToCart('3', 'Single-breasted Notch', 100.00)">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="img/suit2.jpg" alt="Double Breasted Slim Fit">
+        <h3>Double Breasted Slim Fit Peak Lapel</h3>
+        <p>$150.00</p>
+        <button class="btn" onclick="addToCart('4', 'Double Breasted Slim Fit', 150.00)">Add to Cart</button>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 DesiWear</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
